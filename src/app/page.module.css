@@ -33,7 +33,9 @@
   gap: 32px;
   grid-row-start: 2;
 }
-
+.h2 {
+  text-align: center;
+}
 .main ol {
   font-family: var(--font-geist-mono);
   padding-left: 0;

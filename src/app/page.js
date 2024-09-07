@@ -7,13 +7,14 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="https://thehawktech.com/wp-content/uploads/2022/06/Hawk-hor-l.png"
+          src="/images/logo.png"
           alt="The Hawk Tech logo"
-          width={180}
-          height={38}
+          width={265}
+          height={122}
           priority
         />
-       <h2> Comming Soon </h2>
+       
+       <h2 className={styles.h2}> Comming Soon </h2>
 
         {/* <div className={styles.ctas}>
           <a
