@@ -43,7 +43,8 @@ export default function Home() {
         </div> */}
       </main>
       <footer className={styles.footer}>
-        <a
+          <a href="https://thehawktech.com"> Powered by The Hawk Tech</a>
+        {/* <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -84,7 +85,7 @@ export default function Home() {
             height={16}
           />
           Go to nextjs.org →
-        </a>
+        </a> */}
       </footer>
     </div>
   );
